@@ -122,7 +122,7 @@ body {
 .card-orange   { background-color: #ff8c00; }
 .card-red      { background-color: #e63946; }
 
-/* Mobil */
+/* Mobile */
 @media (max-width: 768px) {
   .main-content {
     flex-direction: column;

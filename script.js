@@ -55,11 +55,11 @@ const modalData = {
   `
 };
 
-// DOM Elemanları
+// DOM Materials
 const modalOverlay = document.getElementById('modalOverlay');
 const modalBody = document.getElementById('modalBody');
 
-// Modal Açma Fonksiyonu
+// Modal Open Function
 function openModal(key) {
   if (modalData[key]) {
     modalBody.innerHTML = modalData[key];
@@ -67,12 +67,12 @@ function openModal(key) {
   }
 }
 
-// Modal Kapatma Fonksiyonu
+// Modal Close Function
 function closeModal() {
   modalOverlay.classList.remove('active');
 }
 
-// Dışarıya tıklayınca kapatma
+// Close Modal on Outside Click
 function closeModalOnOutsideClick(event) {
   if (event.target === modalOverlay) {
     closeModal();
