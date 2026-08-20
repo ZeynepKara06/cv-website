@@ -1,26 +1,26 @@
 
 const modalData = {
   certificates: `
-    <h2>📜 CERTIFICATES & ACHIEVEMENTS</h2>
+    <h2> CERTIFICATES & ACHIEVEMENTS</h2>
     <p style="color:#a0a5b5; font-size:0.9rem;">Aldığım sertifikalar ve doğrulama bağlantıları:</p>
     
     <div class="modal-grid">
       <div class="modal-card">
         <img src="huawei-cert.jpg" alt="Huawei Cloud" />
         <h4>Huawei Cloud Security</h4>
-        <a href="https://example.com" target="_blank">🔗 Sertifikayı Doğrula</a>
+        <a href="https://example.com" target="_blank"> Sertifikayı Doğrula</a>
       </div>
 
       <div class="modal-card">
         <img src="aws-cert.jpg" alt="AWS Security" />
         <h4>AWS Cloud Security</h4>
-        <a href="https://example.com" target="_blank">🔗 Sertifikayı Doğrula</a>
+        <a href="https://example.com" target="_blank"> Sertifikayı Doğrula</a>
       </div>
     </div>
   `,
 
   education:`
-    <h2>🎓 EDUCATION DETAILS</h2>
+    <h2> EDUCATION DETAILS</h2>
     <p><b>Piri Reis Üniversitesi</b> - Computer Engineering (%100 English)</p>
     <p style="margin-top:10px; color:#a0a5b5;">Data Structures, Algorithms, Object-Oriented Programming (C/C++) and Web Development focused education.</p>
   `,
@@ -35,17 +35,17 @@ const modalData = {
   `,
 
   projects: `
-    <h2>🚀 PROJECTS & LABS</h2>
+    <h2> PROJECTS & LABS</h2>
     <p style="color:#a0a5b5;">Geliştirdiğim yazılım projeleri ve bulut güvenlik senaryoları yakında eklenecek.</p>
   `,
 
   experience: `
-    <h2>💼 EXPERIENCE</h2>
+    <h2> EXPERIENCE</h2>
     <p style="color:#a0a5b5;">Eğitimler, Bootcamp'ler ve Kulüp Çalışmaları...</p>
   `,
 
   volunteer: `
-    <h2>🤝 VOLUNTEER WORK</h2>
+    <h2> VOLUNTEER WORK</h2>
      <ul style="margin-left: 20px; margin-top: 10px; color:#a0a5b5; line-height: 1.8;">
       <li><b>IT Club: </li>
       <li><b>Aerospace Club: </li>
