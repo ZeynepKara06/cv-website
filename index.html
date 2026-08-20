@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeynep Karamustafaoğlu - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <div class="container">
+    <!-- Headline -->
+    <div class="header">
+      <h1>ZEYNEP KARAMUSTAFAOĞLU</h1>
+      <p class="about">COMPUTER ENGINEERING STUDENT</p>
+    </div>
+
+    <!-- Main Content (Left Photo + Right Cards) -->
+    <div class="main-content">
+      
+      <!-- Left side: Profile Photo -->
+      <div class="profile-box">
+        <img src="profile.jpg" alt="Profile Picture" />
+      </div>
+
+      <!-- Right side: Clickable 6-Grid with Colors -->
+      <div class="cards-grid">
+        
+        <div class="card card-blue" onclick="openModal('education')">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h2>EDUCATION</h2>
+          <p>Piri Reis University<br>2nd year student<br>Computer Engineering (%100 English)</p>
+        </div>
+
+        <div class="card card-purple" onclick="openModal('skills')">
+          <i class="fa-solid fa-code"></i>
+          <h2>SKILLS</h2>
+          <p>C++, Python, Web Dev, Java, C#, Cyber Security</p>
+        </div>
+
+        <div class="card card-darkblue" onclick="openModal('experience')">
+          <i class="fa-solid fa-briefcase"></i>
+          <h2>EXPERIENCE</h2>
+          <p>Internships, Projects, IEEE Club Member</p>
+        </div>
+
+        <div class="card card-green" onclick="openModal('projects')">
+          <i class="fa-solid fa-rocket"></i>
+          <h2>PROJECTS & PRIZES</h2>
+          <p>Web Apps, ML Models, Embedded Systems</p>
+        </div>
+
+        <div class="card card-orange" onclick="openModal('certificates')">
+          <i class="fa-solid fa-certificate"></i>
+          <h2>CERTIFICATES</h2>
+          <p>AWS, Google Cloud, Ethical Hacking</p>
+        </div>
+
+        <div class="card card-red" onclick="openModal('volunteer')">
+          <i class="fa-solid fa-users"></i>
+          <h2>VOLUNTEER & CLUB</h2>
+          <p>A passionate computer engineering student, Team worker</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bottom Links -->
+    <div class="links">
+      <a href="https://example.com/link1" class="link-button">Link 1</a>
+      <a href="https://example.com/link2" class="link-button">Link 2</a>
+      <a href="https://example.com/link3" class="link-button">Link 3</a>
+      <a href="https://example.com/link4" class="link-button">Link 4</a>
+    </div>
+
+  </div>
+
+  <!-- POP-UP(MODAL)  -->
+  <div id="modalOverlay" class="modal-overlay" onclick="closeModalOnOutsideClick(event)">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <div id="modalBody">
+        <!-- İçerik JS ile buraya yüklenecek -->
+      </div>
+    </div>
+  </div>
+
+  <script src="HTML PROJECT/script.js"></script>
+
+</body>
+</html>
+
+     
